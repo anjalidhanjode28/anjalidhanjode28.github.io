@@ -83,3 +83,17 @@ const nav = document.querySelector(".nav"),
           addBackSection(sectionIndex);
       })
  
+
+      //handburger
+let Arr1 = document.querySelector(".navbar-collapse")
+let section = document.querySelectorAll(".nav-item");
+console.log(section.length)
+for(let i=0;i<section.length;i++) {
+    section[i].addEventListener("click", () => {
+        Arr1.classList.remove("show")
+    })
+}
+
+window.addEventListener("scroll", () => {
+    Arr1.classList.remove("show")
+})
