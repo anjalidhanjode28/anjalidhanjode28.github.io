@@ -12,7 +12,7 @@ let temp = {
   message : body
 }
 
-emailjs.send('service_vgu2y6b', 'template_ce5qexv', temp)
+emailjs.send('service_6ke7mf1', 'template_d60ly8l', temp)
 .then((res) => {
   if(res.status == 200) {
     success()
