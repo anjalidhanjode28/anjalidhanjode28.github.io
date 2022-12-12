@@ -23,7 +23,7 @@ const Projects = [
     gitrepo:
       "https://github.com/anjalidhanjode28/Zappos.com-Clone",
     video: "",
-    tech_stack: "  REACT  |  CHAKRA UI |",
+    tech_stack: "  REACT  |  CHAKRA UI ",
     tech_stackicons: [
       `<img src="https://img.icons8.com/color/50/000000/html-5--v1.png" />`,
       `<img src="https://img.icons8.com/color/50/000000/css3.png"/>`,
