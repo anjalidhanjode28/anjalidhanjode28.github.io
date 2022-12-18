@@ -1,40 +1,5 @@
 const Projects = [
   {
-    name: "Trouper.com",
-    about:
-      "Trouper is freelancing website where user can appoint freelancer for project and by registering as freelancer can also provide service and earn money.",
-    img: "https://camo.githubusercontent.com/61f2312813ec22ecccd5b4a6897041c60212a81f23e92f09b2a96e5662c0ec2a/68747470733a2f2f6d69726f2e6d656469756d2e636f6d2f70726f78792f312a317732305344677a3941346a463342643870483736772e706e67",
-    gitrepo: "https://github.com/anjalidhanjode28/Stylecraze-Clone",
-    tech_stack: "HTML | CSS | JAVASCRIPT",
-    tech_stackicons: [
-      `<img src="https://img.icons8.com/color/50/000000/html-5--v1.png" />`,
-      `<img src="https://img.icons8.com/color/50/000000/css3.png"/>`,
-      `<img src="https://img.icons8.com/color/50/000000/javascript--v2.png"/>`,
-    ],
-    project_link: "https://stylecraze.netlify.app/",
-    project_type: "Individual Project",
-    category: ["all", "backend"],
-  },
-  {
-    name: "Clone of Zappos.com",
-    about:
-      "Zappos.com is an E-commerce website which retails shoes, clothing, accessories, handbags, etc.",
-    img: "https://cdn-images-1.medium.com/max/1000/1*bJ_d3c_P7X1bi35Oidj9MA.png",
-    gitrepo:
-      "https://github.com/anjalidhanjode28/Zappos.com-Clone",
-    video: "",
-    tech_stack: "  REACT  |  CHAKRA UI ",
-    tech_stackicons: [
-      `<img src="https://img.icons8.com/color/50/000000/html-5--v1.png" />`,
-      `<img src="https://img.icons8.com/color/50/000000/css3.png"/>`,
-      `<img src="https://img.icons8.com/color/50/000000/javascript--v2.png"/>`,
-    ],
-    project_link: "https://sparkly-manatee-09e75c.netlify.app/",
-    project_type: "Individual Project",
-    category: ["all", "html", "frontend"],
-  },
-
-  {
     name: "Clone of Zee5.com",
     about:
       "Zee5 is an Indian subscription video on-demand and over the top streaming service runned by ZEE Entertainments Enterprises.",
@@ -67,6 +32,40 @@ const Projects = [
     project_type: "Individual Project",
     category: ["all", "frontend"],
   },
+  {
+    name: "Clone of Zappos.com",
+    about:
+      "Zappos.com is an E-commerce website which retails shoes, clothing, accessories, handbags, etc.",
+    img: "https://cdn-images-1.medium.com/max/1000/1*bJ_d3c_P7X1bi35Oidj9MA.png",
+    gitrepo:
+      "https://github.com/anjalidhanjode28/Zappos.com-Clone",
+    video: "",
+    tech_stack: "  REACT  |  CHAKRA UI ",
+    tech_stackicons: [
+      `<img src="https://img.icons8.com/color/50/000000/html-5--v1.png" />`,
+      `<img src="https://img.icons8.com/color/50/000000/css3.png"/>`,
+      `<img src="https://img.icons8.com/color/50/000000/javascript--v2.png"/>`,
+    ],
+    project_link: "https://sparkly-manatee-09e75c.netlify.app/",
+    project_type: "Individual Project",
+    category: ["all", "html", "frontend"],
+  },
+  {
+    name: "Trouper.com",
+    about:
+      "Trouper is freelancing website where user can appoint freelancer for project and by registering as freelancer can also provide service and earn money.",
+    img: "https://miro.medium.com/max/640/1*zi19T1XxFVNQeonQ6jeunQ.webp",
+    gitrepo: "https://github.com/mr-ashu/nutty-form-5506",
+    tech_stack: "React | Redux | MongoDB | Express",
+    tech_stackicons: [
+      `<img src="https://img.icons8.com/color/50/000000/html-5--v1.png" />`,
+      `<img src="https://img.icons8.com/color/50/000000/css3.png"/>`,
+      `<img src="https://img.icons8.com/color/50/000000/javascript--v2.png"/>`,
+    ],
+    project_link: "https://jazzy-lokum-73584a.netlify.app/",
+    project_type: "Individual Project",
+    category: ["all", "backend"],
+  }
  
 ];
 
