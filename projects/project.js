@@ -69,7 +69,7 @@ const Projects = [
   {
     name: "Ecotone.com",
     about:
-      "Ecotone helps you build an audience organically. We’re a values-driven company that provides affordable, intuitive, marketing tools for ambitious people and teams.",
+      "Ecotone is a Social Media Post Scheduler web application where user can create, edit and delete the posts on different channels seperately and also schedule in the calender.",
     img: "https://miro.medium.com/max/828/1*lKEC3HbN4PrQ6hY57Q8Prw.webp",
     gitrepo: "https://github.com/gShubham7/gas-shock-1560",
     tech_stack: "React | Redux | MongoDB | Express",
@@ -142,7 +142,7 @@ function displayProjectData(Projects) {
       <div class="project_tech_box">
       <span class="TechStacks__text">TechStacks: </span> ${pro.tech_stack} 
       </div>
-      
+
       <div class="navigate_ar">
       <a href=${pro.project_link} target="_blank" title="Demo" class="see-project"><i class="fas fa-eye"></i></a>
       <a href=${pro.gitrepo} target="_blank" title="GitHub Repository" class="github-repo"><i class="fab fa-github"></i></a>
