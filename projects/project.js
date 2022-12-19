@@ -72,7 +72,7 @@ const Projects = [
       "Ecotone is a Social Media Post Scheduler web application where user can create, edit and delete the posts on different channels seperately and also schedule in the calender.",
     img: "https://miro.medium.com/max/828/1*lKEC3HbN4PrQ6hY57Q8Prw.webp",
     gitrepo: "https://github.com/gShubham7/gas-shock-1560",
-    tech_stack: "React | Redux | MongoDB | Express",
+    tech_stack: "React | Redux | MongoDB | Express | mongoDB",
     tech_stackicons: [
       `<img src="https://img.icons8.com/color/50/000000/html-5--v1.png" />`,
       `<img src="https://img.icons8.com/color/50/000000/css3.png"/>`,

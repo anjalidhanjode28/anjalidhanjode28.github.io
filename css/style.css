@@ -193,7 +193,7 @@ ul
     opacity: 1;
     animation: slideSection 1s ease;
 }
-@keyframes slideSection
+/* @keyframes slideSection
 {
     0%
     {
@@ -203,7 +203,7 @@ ul
     {
         transform: translateX(0%);
     }
-}
+} */
 .hidden
 {
     display: none !important;
@@ -938,7 +938,8 @@ h3.my-profession
     border-radius: 10px;
     overflow: hidden;
     cursor: pointer;
-    height: 500px;   
+    height: 450px;   
+    /* min-height: 300px; */
     text-align: center;
     padding: 10px;
 }
@@ -949,7 +950,7 @@ h3.my-profession
 .portfolio .portfolio-item-inner .portfolio-img > img
 {
     width: 100%;
-    height: 200px;
+    height: 150px;
     display: block;
 }
 
