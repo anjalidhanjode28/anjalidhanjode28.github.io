@@ -65,6 +65,22 @@ const Projects = [
     project_link: "https://jazzy-lokum-73584a.netlify.app/",
     project_type: "Individual Project",
     category: ["all", "backend"],
+  },
+  {
+    name: "Ecotone.com",
+    about:
+      "Ecotone helps you build an audience organically. We’re a values-driven company that provides affordable, intuitive, marketing tools for ambitious people and teams.",
+    img: "https://miro.medium.com/max/828/1*lKEC3HbN4PrQ6hY57Q8Prw.webp",
+    gitrepo: "https://github.com/gShubham7/gas-shock-1560",
+    tech_stack: "React | Redux | MongoDB | Express",
+    tech_stackicons: [
+      `<img src="https://img.icons8.com/color/50/000000/html-5--v1.png" />`,
+      `<img src="https://img.icons8.com/color/50/000000/css3.png"/>`,
+      `<img src="https://img.icons8.com/color/50/000000/javascript--v2.png"/>`,
+    ],
+    project_link: "https://ecotone77.netlify.app/",
+    project_type: "Individual Project",
+    category: ["all", "backend"],
   }
  
 ];
@@ -122,13 +138,16 @@ function displayProjectData(Projects) {
       <img src=${pro.img} alt="">
       <h3 class="project-name">${pro.name}</h3>
       <h4 class="project-name project__about">${pro.about}</h4>
+
+      <div class="project_tech_box">
+      <span class="TechStacks__text">TechStacks: </span> ${pro.tech_stack} 
+      </div>
+      
       <div class="navigate_ar">
       <a href=${pro.project_link} target="_blank" title="Demo" class="see-project"><i class="fas fa-eye"></i></a>
       <a href=${pro.gitrepo} target="_blank" title="GitHub Repository" class="github-repo"><i class="fab fa-github"></i></a>
       </div>
-      <div class="project_tech_box">
-      <span class="TechStacks__text">TechStacks: </span> ${pro.tech_stack} 
-      </div>
+     
       
     </div>
   </div>

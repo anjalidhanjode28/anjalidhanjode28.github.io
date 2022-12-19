@@ -938,7 +938,7 @@ h3.my-profession
     border-radius: 10px;
     overflow: hidden;
     cursor: pointer;
-    height: 520px;
+    height: 500px;   
     text-align: center;
     padding: 10px;
 }
@@ -949,7 +949,7 @@ h3.my-profession
 .portfolio .portfolio-item-inner .portfolio-img > img
 {
     width: 100%;
-    height: 170px;
+    height: 200px;
     display: block;
 }
 
@@ -1068,7 +1068,7 @@ h3.my-profession
 
 }
 .project__about{
-    height: 140px;
+    height: 120px;
     overflow: hidden;
     font-size: 14px;
 
