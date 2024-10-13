@@ -20,7 +20,7 @@ const Projects = [
     name: "Clone of Stylecraze.com",
     about:
       "Stylecraze is a product website that provides the facility of beauty products for women and also provides articles according to brands. StyleCraze’s articles are accurate, current, relevant, and actionable.",
-    img: "https://camo.githubusercontent.com/61f2312813ec22ecccd5b4a6897041c60212a81f23e92f09b2a96e5662c0ec2a/68747470733a2f2f6d69726f2e6d656469756d2e636f6d2f70726f78792f312a317732305344677a3941346a463342643870483736772e706e67",
+    img: "https://camo.githubusercontent.com/ff62da5f46c6d99066264fe8559033eb611d74f320a16085752b1a581cd46349/68747470733a2f2f6d69726f2e6d656469756d2e636f6d2f70726f78792f312a317732305344677a3941346a463342643870483736772e706e67",
     gitrepo: "https://github.com/anjalidhanjode28/Stylecraze-Clone",
     tech_stack: "HTML | CSS | JAVASCRIPT",
     tech_stackicons: [
