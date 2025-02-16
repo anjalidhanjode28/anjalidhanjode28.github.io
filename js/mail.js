@@ -20,6 +20,9 @@ emailjs.send('service_6ke7mf1', 'template_d60ly8l', temp)
     failure()
   }
 })
+.catch((err) => {
+  console.error("EmailJS Error:", err);
+});
 
 
 nam_txt.value = ""
